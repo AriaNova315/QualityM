@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+qualitym.db
+generated/
+var/
+*.log
+.DS_Store
+~$*.xlsx
+.gstack/
+
+# Local runtime files and editor settings
+qualitym.db-*
+tmp/
+.vscode/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "checklist_stable_key": "product.software-development-plan",
+  "items": {
+    "item-1-eeebfe7cf4": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "template-structure", "title": "未按规定模板编制软件开发计划", "description": "软件开发计划采用的整体结构、栏目设置或编排方式与当前适用的规定模板不一致。", "corrective_suggestion": "确认当前适用的软件开发计划模板，按照模板结构重新编排文档，并复核各栏目位置和层级。"},
+        {"stable_key": "format-elements", "title": "模板格式要素填写不规范", "description": "软件开发计划中的标题层级、编号、表格或模板规定的格式要素存在缺失、错位或填写不规范的情况。", "corrective_suggestion": "逐项对照规定模板检查格式要素，补齐缺失内容并统一标题、编号和表格格式。", "default_severity": "轻微"}
+      ]
+    },
+    "item-2-e578181b0f": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "related-plans-incomplete", "title": "与相关项目管理计划的关系描述不完整", "description": "软件开发计划未完整说明其与软件配置管理计划、软件质量保证计划、测量与分析计划等相关计划之间的关系。", "corrective_suggestion": "识别适用于本项目的相关管理计划，补充各计划与软件开发计划之间的分工、衔接关系和相互约束。"},
+        {"stable_key": "interfaces-unclear", "title": "相关计划之间的职责或接口关系不明确", "description": "软件开发计划虽然引用了相关管理计划，但未明确各计划负责的活动、输入输出或协作接口。", "corrective_suggestion": "明确软件开发计划与各相关计划的职责边界、输入输出和协作接口，并检查是否存在活动遗漏或责任交叉。"},
+        {"stable_key": "references-inaccurate", "title": "相关计划的引用信息不准确", "description": "软件开发计划中引用的相关计划名称、版本、状态或适用关系与实际受控文件不一致。", "corrective_suggestion": "核对相关计划的受控名称、版本和状态，修正引用信息，并复核各计划之间的描述保持一致。"}
+      ]
+    },
+    "item-3-3374a5540b": {
+      "default_severity": "严重",
+      "issues": [
+        {"stable_key": "lifecycle-model-missing", "title": "未明确所采用的软件生存周期模型", "description": "软件开发计划未明确说明本项目采用的软件生存周期模型，无法据此确定开发阶段和主要活动安排。", "corrective_suggestion": "明确项目采用的软件生存周期模型，并在软件开发计划中说明其阶段划分和基本实施方式。"},
+        {"stable_key": "selection-rationale-missing", "title": "未说明生存周期模型的选择理由", "description": "软件开发计划给出了生存周期模型，但未说明选择该模型的依据和理由。", "corrective_suggestion": "结合项目特点、技术风险、需求稳定程度和交付约束，补充选择该生存周期模型的理由。"},
+        {"stable_key": "selection-rationale-unsupported", "title": "生存周期模型选择理由不能支撑项目实际需要", "description": "软件开发计划给出的模型选择理由与项目特点、风险或实施约束缺少对应关系，不能充分说明该模型适用于本项目。", "corrective_suggestion": "重新分析项目特点和实施约束，修正模型选择或补充能够支撑其适用性的具体理由。"}
+      ]
+    },
+    "item-4-247f89c6f5": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "development-process-incomplete", "title": "未完整定义项目的软件开发过程", "description": "软件开发计划未明确项目采用的开发过程，或缺少对主要过程活动及其衔接关系的说明。", "corrective_suggestion": "补充项目采用的软件开发过程，明确主要活动、输入输出及活动之间的衔接关系。"},
+        {"stable_key": "tailoring-scope-missing", "title": "未明确需要裁剪的过程内容", "description": "软件开发计划涉及过程裁剪，但未明确说明被裁剪的过程、活动、工作产品或要求。", "corrective_suggestion": "逐项列明裁剪对象和裁剪范围，确保裁剪内容可以识别和复核。"},
+        {"stable_key": "tailoring-rationale-insufficient", "title": "过程裁剪理由不充分", "description": "软件开发计划列出了裁剪内容，但未说明裁剪依据，或现有理由不能证明裁剪不会影响项目目标和质量要求。", "corrective_suggestion": "结合项目规模、生存周期模型、合同要求和风险补充裁剪理由，并复核裁剪后的过程仍能满足项目要求。"}
+      ]
+    },
+    "item-5-d3a7245a44": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "methods-missing", "title": "未明确软件开发方法", "description": "软件开发计划未说明需求分析、设计、编码、集成或测试等活动采用的主要开发方法。", "corrective_suggestion": "结合项目开发过程，补充各主要开发活动采用的方法及其适用环节。"},
+        {"stable_key": "methods-not-executable", "title": "软件开发方法缺乏可执行性", "description": "软件开发计划列出了开发方法，但未说明其应用方式、实施条件或必要的工具和资源，项目成员难以据此执行。", "corrective_suggestion": "补充开发方法的应用范围、实施步骤、所需工具和资源，使其能够落实到具体开发活动。"},
+        {"stable_key": "methods-not-suitable", "title": "软件开发方法与项目特点不匹配", "description": "所选开发方法与项目采用的生存周期模型、技术特点或开发约束不匹配，现有计划不能证明该方法合理可行。", "corrective_suggestion": "结合项目特点和约束重新评估开发方法；必要时调整方法，或补充其适用性和可行性说明。"}
+      ]
+    },
+    "item-6-4cf64b2514": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "standards-coverage-incomplete", "title": "各开发阶段应遵循的标准描述不完整", "description": "软件开发计划未完整说明需求分析、设计、编码或测试活动应遵循的标准，部分开发阶段缺少明确依据。", "corrective_suggestion": "按需求分析、设计、编码和测试活动逐项核对应遵循的标准，补齐遗漏的标准及其适用阶段。"},
+        {"stable_key": "standards-reference-inaccurate", "title": "引用标准的信息不准确", "description": "软件开发计划中引用的标准名称、编号、版本或有效状态不准确，无法确定项目实际适用的标准。", "corrective_suggestion": "核对标准的受控名称、编号、版本和有效状态，修正文档中的引用信息。"},
+        {"stable_key": "task-book-standards-conflict", "title": "引用标准与软件研制任务书要求不一致", "description": "软件开发计划规定的需求分析、设计、编码或测试标准与软件研制任务书中的相应要求存在遗漏或冲突。", "corrective_suggestion": "逐项核对软件研制任务书中的标准要求，修正不一致内容；确需调整时补充依据并履行相应确认程序。"},
+        {"stable_key": "standards-scope-unclear", "title": "标准的适用范围不明确", "description": "软件开发计划列出了相关标准，但未明确其适用的开发活动、工作产品或软件范围，执行人员无法准确判断如何应用。", "corrective_suggestion": "补充各项标准的适用对象和适用阶段，明确标准与具体开发活动及工作产品的对应关系。"}
+      ]
+    },
+    "item-7-b0c0a3249f": {
+      "default_severity": "严重",
+      "issues": [
+        {"stable_key": "wbs-coverage-incomplete", "title": "WBS未完整覆盖软件产品结构", "description": "WBS遗漏了软件产品结构中的组成部分，不能完整反映项目需要开发、集成或交付的软件产品。", "corrective_suggestion": "依据软件产品组成和交付要求补充遗漏项，并自上而下复核WBS对软件产品结构的覆盖情况。"},
+        {"stable_key": "wbs-hierarchy-inaccurate", "title": "WBS层级或分解关系不准确", "description": "WBS中的软件产品层级、组成关系或分解边界存在错误，不能准确反映软件产品的实际结构。", "corrective_suggestion": "重新核对软件产品的组成和层级关系，调整WBS分解结构，确保各层级之间的归属关系清晰、正确。"},
+        {"stable_key": "wbs-task-book-conflict", "title": "WBS与软件研制任务书不一致", "description": "WBS中的软件产品组成、范围或层级与软件研制任务书规定的研制对象和交付范围存在不一致。", "corrective_suggestion": "以软件研制任务书确定的研制范围和产品组成为依据，修正WBS中的遗漏、超范围或错误分解内容。"},
+        {"stable_key": "wbs-boundaries-unclear", "title": "WBS分解项边界不清", "description": "WBS中的部分分解项存在范围重叠、归属不清或无法明确对应具体软件产品的问题。", "corrective_suggestion": "明确各分解项的范围和边界，消除重复或交叉内容，并确保每个分解项能够对应明确的软件产品组成。"}
+      ]
+    },
+    "item-8-a50f17920a": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "reusable-products-missing", "title": "未识别计划使用的可重用软件产品", "description": "项目计划使用已有软件产品、组件或其他可重用成果，但软件开发计划未对其进行识别和说明。", "corrective_suggestion": "识别项目计划复用的软件产品或组件，在软件开发计划中补充其名称、来源及预期用途。"},
+        {"stable_key": "reusable-products-inaccurate", "title": "可重用软件产品信息不准确", "description": "软件开发计划中记录的可重用软件产品名称、版本、来源或当前状态与实际情况不一致。", "corrective_suggestion": "核对可重用软件产品的受控信息，修正名称、版本、来源和状态等内容。"},
+        {"stable_key": "reuse-scope-unclear", "title": "可重用软件产品的使用范围描述不清", "description": "软件开发计划虽然列出了可重用软件产品，但未明确其在本项目中的使用位置、用途或适用范围。", "corrective_suggestion": "补充可重用软件产品在本项目中的使用范围和用途，明确其与本项目软件产品的关系。"},
+        {"stable_key": "reuse-suitability-missing", "title": "可重用软件产品的适用性处理未说明", "description": "软件开发计划未说明如何确认可重用软件产品满足本项目的功能、接口、环境或质量要求。", "corrective_suggestion": "补充可重用软件产品的适用性分析、必要的修改或验证安排，并明确不满足要求时的处理方式。"}
+      ]
+    },
+    "item-9-cf89d2f537": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "critical-requirements-missing", "title": "未识别需要重点处理的关键性需求", "description": "软件开发计划未明确识别项目中的关键性需求，无法确定需要采取专门控制措施的对象。", "corrective_suggestion": "依据软件研制任务书和软件需求识别关键性需求，并在软件开发计划中明确列出或引用其受控来源。"},
+        {"stable_key": "handling-method-missing", "title": "未说明关键性需求的处理方法", "description": "软件开发计划识别了关键性需求，但未说明这些需求在分析、设计、实现或验证过程中的处理方法。", "corrective_suggestion": "针对关键性需求补充分析、设计、实现、验证及跟踪方面的处理方法，明确其在开发过程中的控制方式。"},
+        {"stable_key": "handling-method-not-executable", "title": "关键性需求处理方法缺乏可执行性", "description": "关键性需求的处理方法表述笼统，未明确具体活动、责任或验证方式，无法指导项目实施。", "corrective_suggestion": "细化关键性需求的处理活动、责任分工和验证方式，使相关措施能够落实并形成可检查的结果。"},
+        {"stable_key": "handling-method-inadequate", "title": "关键性需求处理方法与实际要求不匹配", "description": "计划中规定的处理方法不能覆盖关键性需求的主要风险或约束，无法证明相关需求得到充分控制。", "corrective_suggestion": "重新分析关键性需求的特点和风险，调整处理方法，并复核相应的设计、实现和验证安排。"}
+      ]
+    },
+    "item-10-a9ebdf9aa3": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "vv-activities-incomplete", "title": "验证与确认活动规划不完整", "description": "软件开发计划遗漏了部分开发阶段、软件产品或工作产品所需的验证与确认活动。", "corrective_suggestion": "按开发阶段和工作产品逐项识别所需的验证与确认活动，补充遗漏内容。"},
+        {"stable_key": "vv-methods-unclear", "title": "验证与确认对象或方法不明确", "description": "软件开发计划未明确验证与确认的对象、采用的方法或预期形成的结果，相关活动难以执行。", "corrective_suggestion": "明确各项验证与确认活动的对象、方法和预期结果，使活动安排能够直接指导实施。"},
+        {"stable_key": "vv-responsibility-schedule-unclear", "title": "验证与确认的责任和时间安排不明确", "description": "软件开发计划未明确验证与确认活动的责任主体、实施时机或与开发活动的衔接关系。", "corrective_suggestion": "补充各项验证与确认活动的责任角色和实施时机，并明确其与开发里程碑和工作产品完成时间的关系。"},
+        {"stable_key": "vv-criteria-unclear", "title": "验证与确认的完成准则不明确", "description": "软件开发计划未规定验证与确认活动的完成条件或通过准则，无法对活动完成状态作出一致判断。", "corrective_suggestion": "为主要验证与确认活动补充可检查的完成条件和通过准则，并明确结果记录和问题处理要求。"}
+      ]
+    },
+    "item-11-6e0c6ed884": {
+      "default_severity": "严重",
+      "issues": [
+        {"stable_key": "milestones-incomplete", "title": "项目里程碑设置不完整", "description": "软件开发计划遗漏了项目要求的重要里程碑，不能完整反映软件开发过程中的主要控制节点。", "corrective_suggestion": "依据软件研制任务书和开发过程识别全部必要里程碑，补充遗漏节点及其名称。"},
+        {"stable_key": "milestone-criteria-unclear", "title": "里程碑建立或完成条件不明确", "description": "部分里程碑未规定建立条件、完成条件或应形成的结果，无法对里程碑达成状态作出一致判断。", "corrective_suggestion": "为各里程碑补充明确、可检查的建立条件、完成条件和应形成的工作产品。"},
+        {"stable_key": "milestone-timing-inaccurate", "title": "里程碑时间安排不准确", "description": "里程碑计划完成时间与相关开发活动、工作产品或阶段安排不能正确衔接。", "corrective_suggestion": "结合活动依赖关系和进度安排重新核对里程碑时间，修正无法衔接或不具备实现条件的日期。"},
+        {"stable_key": "milestone-task-book-conflict", "title": "里程碑设置与软件研制任务书不一致", "description": "软件开发计划中的里程碑名称、条件或完成时间与软件研制任务书规定的节点存在遗漏或冲突。", "corrective_suggestion": "逐项核对软件研制任务书中的里程碑要求，修正不一致内容；确需调整时补充依据并履行确认程序。"}
+      ]
+    },
+    "item-12-d329cb6b92": {
+      "default_severity": "严重",
+      "issues": [
+        {"stable_key": "schedule-incomplete", "title": "进度表内容不完整", "description": "进度表遗漏了阶段名称、工作内容、工作要求、开始结束时间、启动准则或完成准则中的一项或多项。", "corrective_suggestion": "按照项目开发阶段逐项补齐工作内容、要求、时间和准则，确保每项计划活动具备完整信息。"},
+        {"stable_key": "schedule-timing-unreasonable", "title": "进度表中的时间安排不合理", "description": "部分活动的开始结束时间与前后依赖关系、所需工作量或资源条件不匹配，存在无法按计划执行的风险。", "corrective_suggestion": "重新核对活动依赖、工作量和资源条件，调整开始结束时间并复核整体进度的可行性。"},
+        {"stable_key": "phase-criteria-not-verifiable", "title": "阶段启动或完成准则不可判定", "description": "阶段启动准则或完成准则表述笼统，缺少可以检查的条件，无法对阶段开始或结束状态作出一致判断。", "corrective_suggestion": "将启动和完成准则改写为明确、可观察、可复核的条件，并说明相应结果或工作产品。"},
+        {"stable_key": "schedule-task-book-conflict", "title": "进度表与软件研制任务书不一致", "description": "进度表中的阶段、工作内容、关键时间或完成要求与软件研制任务书存在遗漏或冲突。", "corrective_suggestion": "以软件研制任务书的阶段和进度要求为依据修正进度表，并复核相关里程碑同步更新。"}
+      ]
+    },
+    "item-13-6092839df3": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "network-diagram-missing", "title": "未提供活动网络图", "description": "软件开发计划未提供活动网络图，无法直观反映项目活动之间的先后关系和依赖关系。", "corrective_suggestion": "依据进度表中的项目活动建立活动网络图，完整表示主要活动及其依赖关系。"},
+        {"stable_key": "network-coverage-incomplete", "title": "活动网络图未完整覆盖进度活动", "description": "活动网络图遗漏了进度表中的部分活动，或包含无法在进度表中找到对应项的活动。", "corrective_suggestion": "逐项核对活动网络图与进度表，补充遗漏活动，并处理无对应关系的多余活动。"},
+        {"stable_key": "dependencies-inaccurate", "title": "活动依赖关系描述不正确", "description": "活动网络图中的前后置关系与实际开发顺序不符，存在依赖遗漏、关系颠倒或不合理并行。", "corrective_suggestion": "依据各活动的输入输出和启动条件重新分析依赖关系，修正错误连接。"},
+        {"stable_key": "network-schedule-conflict", "title": "网络图时间信息与进度表不一致", "description": "活动网络图反映的活动时间或完成顺序与进度表中的开始结束时间存在冲突。", "corrective_suggestion": "统一活动网络图与进度表的数据来源，修正时间和顺序，并对修改后的依赖关系重新核对。"}
+      ]
+    },
+    "item-14-264980bb7e": {
+      "default_severity": "严重",
+      "issues": [
+        {"stable_key": "critical-path-missing", "title": "活动网络图未标识关键路径", "description": "活动网络图未明确标识决定项目工期的关键路径，无法识别需要重点控制的活动。", "corrective_suggestion": "根据活动持续时间和依赖关系计算并标识关键路径，明确关键活动。"},
+        {"stable_key": "critical-path-inaccurate", "title": "关键路径识别不正确", "description": "标识的关键路径未正确反映活动持续时间和依赖关系，存在遗漏关键活动或错误纳入非关键活动的情况。", "corrective_suggestion": "重新核对活动持续时间、依赖关系和时间余量，重新计算并修正关键路径。"},
+        {"stable_key": "critical-path-schedule-conflict", "title": "关键路径与项目进度安排不一致", "description": "活动网络图中的关键路径与进度表反映的关键节点和完成时间不能相互对应。", "corrective_suggestion": "统一网络图和进度表中的活动及时间数据，重新分析关键路径并同步修正相关进度安排。"}
+      ]
+    },
+    "item-15-46f1ff40c0": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "risks-incomplete", "title": "项目风险识别不完整", "description": "风险识别未覆盖项目主要技术、进度、资源或管理方面的不确定因素，存在重要风险遗漏。", "corrective_suggestion": "结合项目目标、技术特点、进度和资源条件重新开展风险识别，补充遗漏风险。"},
+        {"stable_key": "risk-analysis-insufficient", "title": "风险分析不充分", "description": "已识别风险缺少发生可能性、影响程度或触发条件分析，不能支持后续排序和处置。", "corrective_suggestion": "为每项风险补充发生可能性、影响程度和触发条件，并记录分析依据。"},
+        {"stable_key": "risk-priority-unreasonable", "title": "风险排序缺失或不合理", "description": "风险未进行优先级排序，或排序结果与风险可能性和影响程度不匹配。", "corrective_suggestion": "采用项目规定的风险评价方法重新评估和排序，明确需要优先跟踪和处理的风险。"},
+        {"stable_key": "risk-actions-not-executable", "title": "风险缓解和应对措施不可执行", "description": "风险缓解或应对措施缺失，或未明确具体动作、责任和触发时机，难以在风险发生前后落实。", "corrective_suggestion": "针对主要风险补充可执行的缓解和应对措施，明确责任、实施时机和跟踪方式。"}
+      ]
+    },
+    "item-16-bdcf62f0cd": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "process-assets-missing", "title": "未识别项目可使用的过程资产", "description": "软件开发计划未识别本项目可使用的组织过程、模板、指南、历史数据或经验成果。", "corrective_suggestion": "结合项目开发活动识别可复用的过程资产，并在计划中列明其名称、来源和用途。"},
+        {"stable_key": "process-assets-inaccurate", "title": "过程资产信息不准确", "description": "计划中列出的过程资产名称、版本、状态或来源与当前受控信息不一致。", "corrective_suggestion": "核对过程资产的受控信息，修正名称、版本、状态和来源。"},
+        {"stable_key": "process-assets-usage-unclear", "title": "过程资产的适用方式不明确", "description": "软件开发计划列出了过程资产，但未说明其适用的活动、使用方式或需要调整的内容。", "corrective_suggestion": "明确各项过程资产的适用范围和使用方式；需要裁剪或调整时，说明调整内容和理由。"}
+      ]
+    },
+    "item-17-1691137ad8": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "maintenance-planning-missing", "title": "未策划软件交付后的运维活动", "description": "软件开发计划未对软件交付后的运行支持和维护工作作出安排。", "corrective_suggestion": "根据交付和使用要求补充运维阶段的主要活动、工作内容和实施安排。"},
+        {"stable_key": "maintenance-activities-incomplete", "title": "运维活动策划不完整", "description": "运维策划未完整覆盖交接、技术支持、问题处理、软件更新或维护结果管理等必要活动。", "corrective_suggestion": "结合软件交付后的使用和维护场景，补充遗漏的运维活动及其输入输出。"},
+        {"stable_key": "maintenance-responsibility-unclear", "title": "运维责任和资源安排不明确", "description": "软件开发计划未明确运维活动的责任主体、所需人员或资源保障。", "corrective_suggestion": "明确各项运维活动的责任角色、协作关系和资源需求。"},
+        {"stable_key": "maintenance-handover-unclear", "title": "开发向运维的移交安排不明确", "description": "软件开发计划未说明开发成果、技术资料、遗留问题和支持责任如何向运维阶段移交。", "corrective_suggestion": "补充开发向运维的移交内容、移交条件、参与角色和确认方式。"}
+      ]
+    },
+    "item-18-61caf77fa2": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "organization-incomplete", "title": "项目组织机构描述不完整", "description": "软件开发计划未完整说明参与项目的软件开发、管理、质量或支持组织及其相互关系。", "corrective_suggestion": "补充项目组织结构和参与角色，明确各组织或角色之间的管理与协作关系。"},
+        {"stable_key": "responsibilities-unclear", "title": "人员职责划分不明确", "description": "部分项目角色缺少明确职责，或不同角色之间存在职责遗漏、重叠和边界不清。", "corrective_suggestion": "逐项明确各角色的职责、权限和协作接口，消除遗漏与交叉。"},
+        {"stable_key": "resources-incomplete", "title": "项目资源需求描述不完整", "description": "软件开发计划未完整说明项目实施所需的人员、工具、设备、环境或其他资源。", "corrective_suggestion": "结合开发活动和进度安排识别所需资源，补充资源类型、数量或使用阶段。"},
+        {"stable_key": "skills-unclear", "title": "人员技能需求不明确", "description": "软件开发计划未明确关键岗位或开发活动所需的专业知识、技能和能力要求。", "corrective_suggestion": "针对主要角色和活动补充技能要求，并与人员配置和培训安排进行核对。"}
+      ]
+    },
+    "item-19-85b73541fb": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "resource-skills-incomplete", "title": "资源和人力技能需求描述不完整", "description": "软件开发计划遗漏了部分开发活动所需的资源或人员技能，不能支持资源准备和人员配置。", "corrective_suggestion": "按照项目活动和阶段逐项核对资源及技能需求，补充遗漏内容。"},
+        {"stable_key": "resource-timing-unclear", "title": "资源获取时间不明确", "description": "软件开发计划未明确关键人员、工具、设备或环境需要到位的时间，无法判断资源到位时间能否满足进度要求。", "corrective_suggestion": "结合活动开始时间明确各项资源的获取或到位时间，并与进度表保持一致。"},
+        {"stable_key": "training-organization-unclear", "title": "培训组织方式不明确", "description": "对不能直接满足技能要求的人员，软件开发计划未说明培训内容、组织方式或责任安排。", "corrective_suggestion": "根据技能差距制定培训安排，明确培训内容、组织方式和责任角色。"},
+        {"stable_key": "training-timing-inadequate", "title": "培训时间与项目需要不匹配", "description": "培训时间未明确，或安排晚于相关开发活动开始时间，不能保证人员及时具备所需技能。", "corrective_suggestion": "根据人员到位时间和活动启动条件调整培训时间，确保培训在相关工作开始前完成。"}
+      ]
+    },
+    "item-20-d0b6169330": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "stakeholders-incomplete", "title": "利益相关方识别不完整", "description": "软件开发计划遗漏了对项目目标、需求、开发、验证、交付或使用具有重要影响的利益相关方。", "corrective_suggestion": "结合项目全过程重新识别利益相关方，补充遗漏的组织或角色。"},
+        {"stable_key": "participation-activities-unclear", "title": "利益相关方参与活动不明确", "description": "软件开发计划未明确各利益相关方需要参与的评审、确认、决策或协作活动。", "corrective_suggestion": "根据各利益相关方的职责和关注事项，明确其参与的活动类型和具体作用。"},
+        {"stable_key": "participation-timing-unclear", "title": "利益相关方参与时机不明确", "description": "软件开发计划未说明利益相关方在何种阶段、里程碑或条件下参与相关活动。", "corrective_suggestion": "结合进度和里程碑安排，明确各利益相关方的参与时机及必要的输入条件。"},
+        {"stable_key": "participation-role-conflict", "title": "利益相关方参与安排与职责不一致", "description": "利益相关方的参与活动与其职责或决策权限不匹配，可能导致必要确认缺失或职责越界。", "corrective_suggestion": "核对利益相关方的职责和权限，调整参与活动、参与方式及确认责任。"}
+      ]
+    },
+    "item-21-beb144876d": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "estimation-basis-incomplete", "title": "估计依据描述不完整", "description": "软件开发计划未完整说明规模或工作量估计所依据的需求、任务范围、历史数据或约束条件。", "corrective_suggestion": "补充估计所使用的输入和依据，并明确其来源及适用范围。"},
+        {"stable_key": "estimation-method-unclear", "title": "估计方法描述不明确", "description": "软件开发计划未明确说明采用的估计方法，或现有描述不足以理解估计结果的形成过程。", "corrective_suggestion": "明确规模和工作量所采用的估计方法，说明主要步骤、参数和结果形成方式。"},
+        {"stable_key": "estimation-method-unsuitable", "title": "估计方法与项目特点不匹配", "description": "采用的估计方法与当前项目的软件类型、任务成熟度或可获得数据不匹配，估计结果缺少合理支撑。", "corrective_suggestion": "结合项目特点重新评估估计方法；必要时调整方法，或补充说明其适用性及限制。"},
+        {"stable_key": "estimation-result-unsupported", "title": "估计依据与估计结果不能对应", "description": "计划列出的估计依据和方法无法解释最终规模或工作量结果，计算过程缺少必要关联。", "corrective_suggestion": "补充估计依据、参数、计算过程与结果之间的对应关系，使估计结果可以复核。"}
+      ]
+    },
+    "item-22-f7009ace06": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "assumptions-missing", "title": "未说明估计所采用的假设条件", "description": "规模或工作量估计使用了特定前提，但软件开发计划未明确记录相关假设条件。", "corrective_suggestion": "识别估计过程中采用的范围、资源、效率、复用或技术方面假设，并在计划中明确记录。"},
+        {"stable_key": "assumptions-incomplete", "title": "估计假设条件描述不完整", "description": "已记录的假设条件未覆盖影响规模或工作量估计的主要因素，难以判断估计结果成立的条件。", "corrective_suggestion": "重新检查估计输入和计算过程，补充对结果具有明显影响的假设条件。"},
+        {"stable_key": "assumptions-inaccurate", "title": "估计假设与项目实际条件不一致", "description": "估计采用的部分假设与当前项目范围、资源、技术条件或进度约束不符，可能导致估计结果失真。", "corrective_suggestion": "依据当前项目条件修正相关假设，并重新评估受影响的规模和工作量结果。"},
+        {"stable_key": "assumption-change-unmanaged", "title": "假设变化后的处理方式不明确", "description": "软件开发计划未说明关键假设不再成立时如何重新评估或调整估计结果。", "corrective_suggestion": "识别需要持续验证的关键假设，明确假设变化后的重新估计和计划调整要求。"}
+      ]
+    },
+    "item-23-1845313a50": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "historical-data-missing", "title": "未说明估计采用的经验数据", "description": "规模或工作量估计使用了经验参数或历史数据，但软件开发计划未说明具体采用的数据。", "corrective_suggestion": "补充估计中使用的经验数据、参数或参考结果，并说明其在估计中的用途。"},
+        {"stable_key": "data-source-unclear", "title": "经验数据来源不明确", "description": "软件开发计划列出了经验数据，但未说明其来源，无法确认数据的真实性、受控状态和可复查性。", "corrective_suggestion": "补充经验数据的来源、所属项目或数据集，并保留必要的引用信息。"},
+        {"stable_key": "historical-data-not-comparable", "title": "经验数据与当前项目缺乏可比性", "description": "采用的经验数据与当前项目的软件类型、规模、技术条件或开发环境差异较大，未说明其适用性。", "corrective_suggestion": "分析经验数据与当前项目的可比性，必要时选择更适合的数据或说明所作调整。"},
+        {"stable_key": "historical-data-inaccurate", "title": "经验数据使用不准确", "description": "经验数据在估计中的取值、换算或引用与原始来源不一致，影响估计结果的可信度。", "corrective_suggestion": "核对经验数据及其原始来源，修正错误取值或换算，并重新计算受影响的估计结果。"}
+      ]
+    },
+    "item-24-f19f226960": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "estimation-records-missing", "title": "缺少估计过程记录", "description": "项目未保存规模或工作量估计的过程记录，只保留最终结果，无法复查估计形成过程。", "corrective_suggestion": "补充并保存估计输入、采用方法、主要参数、计算过程和结果。"},
+        {"stable_key": "estimation-records-incomplete", "title": "估计过程记录不完整", "description": "现有记录缺少估计输入、假设、经验数据、中间计算或调整说明中的一项或多项。", "corrective_suggestion": "按照估计活动的实际过程补齐缺失记录，确保从输入到结果的过程完整。"},
+        {"stable_key": "estimation-not-reproducible", "title": "估计过程记录无法复算", "description": "记录中的参数、计算关系或调整过程不清楚，其他人员无法依据现有记录重现估计结果。", "corrective_suggestion": "补充计算公式、参数含义、取值来源和调整步骤，使估计结果能够独立复算。"},
+        {"stable_key": "estimation-record-result-conflict", "title": "估计记录与计划结果不一致", "description": "保存的估计过程记录与软件开发计划中采用的规模或工作量结果不一致，且未说明差异原因。", "corrective_suggestion": "核对估计记录和计划结果，修正错误内容；对合理调整补充调整原因和确认记录。"}
+      ]
+    },
+    "item-25-212f045f9a": {
+      "default_severity": "一般",
+      "issues": [
+        {"stable_key": "traceability-missing", "title": "未建立与软件研制任务书的追踪关系", "description": "软件开发计划未建立与软件研制任务书要求之间的对应关系，无法确认任务书要求如何落实到开发计划。", "corrective_suggestion": "建立软件研制任务书要求与软件开发计划内容之间的追踪关系，并保存可复核的对应记录。"},
+        {"stable_key": "traceability-incomplete", "title": "追踪关系覆盖不完整", "description": "部分软件研制任务书要求未追踪到软件开发计划，或软件开发计划中的部分关键安排缺少任务书来源。", "corrective_suggestion": "从任务书到开发计划、从开发计划到任务书双向检查，补齐缺失的追踪关系。"},
+        {"stable_key": "traceability-inaccurate", "title": "追踪关系不正确", "description": "追踪记录中的任务书要求与软件开发计划内容对应错误，不能证明相关要求得到正确落实。", "corrective_suggestion": "逐项核对任务书要求和计划内容，修正错误对应关系，并复核修改后的追踪结果。"},
+        {"stable_key": "traceability-not-synchronized", "title": "变更后未同步更新追踪关系", "description": "软件研制任务书或软件开发计划发生变化后，相关追踪关系未同步更新，现有记录已经失效。", "corrective_suggestion": "核对任务书和开发计划的当前版本，更新受变更影响的追踪关系，并建立变更后的复核要求。"}
+      ]
+    }
+  }
+}

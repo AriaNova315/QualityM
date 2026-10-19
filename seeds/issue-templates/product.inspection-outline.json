@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "checklist_stable_key": "product.inspection-outline",
+  "items": {
+    "item-1-2e5303053f": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未完整准确记录被检验软件的名称、标识、版本和用途",
+          "description": "检查发现，检查项要求的“完整、准确记录了被检验软件的名称、标识、版本和用途”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“完整、准确记录了被检验软件的名称、标识、版本和用途”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "被检验软件的名称、标识、版本和用途的记录存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“完整、准确记录了被检验软件的名称、标识、版本和用途”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“完整、准确记录了被检验软件的名称、标识、版本和用途”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "被检验软件的名称、标识、版本和用途的记录缺失或无法追溯",
+          "description": "与“完整、准确记录了被检验软件的名称、标识、版本和用途”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“完整、准确记录了被检验软件的名称、标识、版本和用途”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-2-7f3ea881c3": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未准则描述本文档的用途",
+          "description": "检查发现，检查项要求的“准则描述了本文档的用途”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“准则描述了本文档的用途”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "准则描述本文档的用途落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“准则描述了本文档的用途”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“准则描述了本文档的用途”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-3-ec4a45fc9a": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未清晰描述本文档的编制依据",
+          "description": "检查发现，检查项要求的“清晰描述了本文档的编制依据”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“清晰描述了本文档的编制依据”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "本文档的编制依据的描述存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“清晰描述了本文档的编制依据”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“清晰描述了本文档的编制依据”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-4-723ec16a07": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "不完整、清晰描述需要检验的技术要求和非技术要求",
+          "description": "检查发现，检查项要求的“完整、清晰描述了需要检验的技术要求和非技术要求”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“完整、清晰描述了需要检验的技术要求和非技术要求”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "存在遗漏、错误或表述不清",
+          "description": "虽然已有相关内容或活动，但“完整、清晰描述了需要检验的技术要求和非技术要求”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“完整、清晰描述了需要检验的技术要求和非技术要求”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-5-004f8d764b": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "针对每一检查项",
+          "description": "检查发现，检查项要求的“针对每一检查项。清晰描述了检查方法、预期结果、合格判据”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“针对每一检查项。清晰描述了检查方法、预期结果、合格判据”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "针对每一检查项的落实内容不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“针对每一检查项。清晰描述了检查方法、预期结果、合格判据”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“针对每一检查项。清晰描述了检查方法、预期结果、合格判据”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-6-bf5114656a": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未准确描述检验环境",
+          "description": "检查发现，检查项要求的“准确描述了检验环境”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“准确描述了检验环境”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "检验环境的描述存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“准确描述了检验环境”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“准确描述了检验环境”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    }
+  }
+}

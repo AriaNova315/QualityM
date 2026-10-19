@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "checklist_stable_key": "product.coding-standard",
+  "items": {
+    "item-1-67a25db40c": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未使用空行、缩进技巧，全文布局一致",
+          "description": "检查发现，检查项要求的“使用空行、缩进技巧，全文布局一致”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“使用空行、缩进技巧，全文布局一致”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "使用空行、缩进技巧，全文布局一致落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“使用空行、缩进技巧，全文布局一致”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“使用空行、缩进技巧，全文布局一致”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "全文布局不一致",
+          "description": "与“使用空行、缩进技巧，全文布局一致”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“使用空行、缩进技巧，全文布局一致”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-2-0119277435": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "声明全局变量时未给予注释",
+          "description": "检查发现，检查项要求的“声明全局变量时给予注释”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“声明全局变量时给予注释”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "声明全局变量时给予注释落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“声明全局变量时给予注释”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“声明全局变量时给予注释”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-3-9d9875019f": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未以显意的符号来命名变量、语句标号、模块、函数和文件名",
+          "description": "检查发现，检查项要求的“以显意的符号来命名变量、语句标号、模块、函数和文件名”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“以显意的符号来命名变量、语句标号、模块、函数和文件名”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "以显意的符号来命名变量、语句标号、模块、函数和文件名落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“以显意的符号来命名变量、语句标号、模块、函数和文件名”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“以显意的符号来命名变量、语句标号、模块、函数和文件名”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-4-3bc19b22e8": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "命名时未表达出变量所带有的实际意义",
+          "description": "检查发现，检查项要求的“命名时表达出变量所带有的实际意义”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“命名时表达出变量所带有的实际意义”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "命名时表达出变量所带有的实际意义落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“命名时表达出变量所带有的实际意义”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“命名时表达出变量所带有的实际意义”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "命名时表达出变量所带有的实际意义的记录缺失或无法追溯",
+          "description": "与“命名时表达出变量所带有的实际意义”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“命名时表达出变量所带有的实际意义”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-5-758057dcf2": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "常量名未显著标识且意思完整",
+          "description": "检查发现，检查项要求的“常量名显著标识且意思完整”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“常量名显著标识且意思完整”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "常量名显著标识且意思完整落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“常量名显著标识且意思完整”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“常量名显著标识且意思完整”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-6-f80ad93d48": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "每个头文件未有文件头注释，文件头注释未包括概述、模块描述",
+          "description": "检查发现，检查项要求的“每个头文件有文件头注释，文件头注释包括概述、模块描述”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“每个头文件有文件头注释，文件头注释包括概述、模块描述”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "每个头文件有文件头注释，文件头注释未包括概述、模块描述落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“每个头文件有文件头注释，文件头注释包括概述、模块描述”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“每个头文件有文件头注释，文件头注释包括概述、模块描述”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-7-6676cdfb8b": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未不存在过多的空行",
+          "description": "检查发现，检查项要求的“不存在过多的空行”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“不存在过多的空行”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "不存在过多的空行落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“不存在过多的空行”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“不存在过多的空行”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-8-c3eadae5cb": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "二元操作符的前后未加空格且一元操作符前后不加空格",
+          "description": "检查发现，检查项要求的“二元操作符的前后加空格且一元操作符前后不加空格”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“二元操作符的前后加空格且一元操作符前后不加空格”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "二元操作符的前后加空格且一元操作符前后不加空格落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“二元操作符的前后加空格且一元操作符前后不加空格”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“二元操作符的前后加空格且一元操作符前后不加空格”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-9-d045a0fc4c": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "函数的参数之间未有空格",
+          "description": "检查发现，检查项要求的“函数的参数之间有空格”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“函数的参数之间有空格”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "函数的参数之间有空格落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“函数的参数之间有空格”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“函数的参数之间有空格”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-10-18227be6d6": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "自定义的函数名与括号之间未未加空格",
+          "description": "检查发现，检查项要求的“自定义的函数名与括号之间未加空格”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“自定义的函数名与括号之间未加空格”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "自定义的函数名与括号之间未加空格落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“自定义的函数名与括号之间未加空格”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“自定义的函数名与括号之间未加空格”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-11-a8a091f40f": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "程序的分界符“{”和“}”未独占一行且位于同一列，同时与引用它们的语句左对齐",
+          "description": "检查发现，检查项要求的“程序的分界符“{”和“}”独占一行且位于同一列，同时与引用它们的语句左对齐”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“程序的分界符“{”和“}”独占一行且位于同一列，同时与引用它们的语句左对齐”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "程序的分界符“{”和“}”独占一行且位于同一列，同时与引用它们的语句左对齐落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“程序的分界符“{”和“}”独占一行且位于同一列，同时与引用它们的语句左对齐”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“程序的分界符“{”和“}”独占一行且位于同一列，同时与引用它们的语句左对齐”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-12-d5add72fda": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "“{}”之内的代码块未在“{”右边一个“TAB”处左对齐且将“TAB”设为4",
+          "description": "检查发现，检查项要求的““{}”之内的代码块在“{”右边一个“TAB”处左对齐且将“TAB”设为4”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实““{}”之内的代码块在“{”右边一个“TAB”处左对齐且将“TAB”设为4”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "“{}”之内的代码块在“{”右边一个“TAB”处左对齐且将“TAB”设为4落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但““{}”之内的代码块在“{”右边一个“TAB”处左对齐且将“TAB”设为4”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照““{}”之内的代码块在“{”右边一个“TAB”处左对齐且将“TAB”设为4”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-13-d76abe945a": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "switch语句中未有default语句配套",
+          "description": "检查发现，检查项要求的“switch语句中有default语句配套”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“switch语句中有default语句配套”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "switch语句中有default语句配套落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“switch语句中有default语句配套”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“switch语句中有default语句配套”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-14-ae6d9474c2": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "表示数组下标的表达式未简单",
+          "description": "检查发现，检查项要求的“表示数组下标的表达式简单”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“表示数组下标的表达式简单”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "表示数组下标的表达式简单落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“表示数组下标的表达式简单”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“表示数组下标的表达式简单”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "表示数组下标的表达式简单的记录缺失或无法追溯",
+          "description": "与“表示数组下标的表达式简单”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“表示数组下标的表达式简单”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-15-ade3123763": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未每个函数均有注释，并说明其功能，输入、输出参数和返回值",
+          "description": "检查发现，检查项要求的“每个函数均有注释，并说明其功能，输入、输出参数和返回值”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“每个函数均有注释，并说明其功能，输入、输出参数和返回值”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "每个函数均有注释，并说明其功能，输入、输出参数和返回值落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“每个函数均有注释，并说明其功能，输入、输出参数和返回值”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“每个函数均有注释，并说明其功能，输入、输出参数和返回值”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-16-785b81a5b8": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "对于关键、复杂和难理解的语句未加注释",
+          "description": "检查发现，检查项要求的“对于关键、复杂和难理解的语句加注释”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“对于关键、复杂和难理解的语句加注释”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "对于关键、复杂和难理解的语句加注释落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“对于关键、复杂和难理解的语句加注释”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“对于关键、复杂和难理解的语句加注释”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-17-0d710bfe39": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "程序接口未清晰明确",
+          "description": "检查发现，检查项要求的“程序接口清晰明确”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“程序接口清晰明确”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "程序接口明确落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“程序接口清晰明确”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“程序接口清晰明确”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-18-22c44e6daf": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未用定义的常量代替实际的数据或字符串",
+          "description": "检查发现，检查项要求的“用定义的常量代替实际的数据或字符串”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“用定义的常量代替实际的数据或字符串”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "用定义的常量代替实际的数据或字符串落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“用定义的常量代替实际的数据或字符串”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“用定义的常量代替实际的数据或字符串”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-19-c7083238b2": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未对数据类型、常量、局部变量、实例变量、全局变量都有不同的命名规则",
+          "description": "检查发现，检查项要求的“对数据类型、常量、局部变量、实例变量、全局变量都有不同的命名规则”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“对数据类型、常量、局部变量、实例变量、全局变量都有不同的命名规则”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "对数据类型、常量、局部变量、实例变量、全局变量都有不同的命名规则落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“对数据类型、常量、局部变量、实例变量、全局变量都有不同的命名规则”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“对数据类型、常量、局部变量、实例变量、全局变量都有不同的命名规则”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    }
+  }
+}

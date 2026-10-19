@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "checklist_stable_key": "process.implementation-infrastructure",
+  "items": {
+    "item-1-e243a7ef23": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "EPG未为项目的过程推进提供技术支持",
+          "description": "检查发现，检查项要求的“EPG为项目的过程推进提供技术支持”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“EPG为项目的过程推进提供技术支持”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "EPG为项目的过程推进提供技术支持落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“EPG为项目的过程推进提供技术支持”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“EPG为项目的过程推进提供技术支持”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-2-bb0738040d": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "对项目的过程资产未识别",
+          "description": "检查发现，检查项要求的“对项目的过程资产识别”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“对项目的过程资产识别”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "对项目的过程资产识别落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“对项目的过程资产识别”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“对项目的过程资产识别”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-3-6051840bb5": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未制定项目资产管理计划",
+          "description": "检查发现，检查项要求的“制定项目资产管理计划”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“制定项目资产管理计划”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "项目资产管理计划缺少必要内容或执行条件",
+          "description": "虽然已有相关内容或活动，但“制定项目资产管理计划”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“制定项目资产管理计划”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "项目资产管理计划的责任、时机或完成条件不明确",
+          "description": "与“制定项目资产管理计划”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“制定项目资产管理计划”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-4-7cbaa48c8a": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "项目资产未按计划得到维护",
+          "description": "检查发现，检查项要求的“项目资产按计划得到维护”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“项目资产按计划得到维护”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "项目资产按计划得到维护落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“项目资产按计划得到维护”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“项目资产按计划得到维护”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "项目资产按计划得到维护的责任、时机或完成条件不明确",
+          "description": "与“项目资产按计划得到维护”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“项目资产按计划得到维护”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-5-81067e1308": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "项目结题后未按计划向组织资产库贡献资产",
+          "description": "检查发现，检查项要求的“项目结题后按计划向组织资产库贡献资产”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“项目结题后按计划向组织资产库贡献资产”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "项目结题后按计划向组织资产库贡献资产落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“项目结题后按计划向组织资产库贡献资产”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“项目结题后按计划向组织资产库贡献资产”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "项目结题后按计划向组织资产库贡献资产的责任、时机或完成条件不明确",
+          "description": "与“项目结题后按计划向组织资产库贡献资产”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“项目结题后按计划向组织资产库贡献资产”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-6-9919a408c7": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "组织资产库的出入库操作不符合资产库管理规范要求",
+          "description": "检查发现，检查项要求的“组织资产库的出入库操作符合资产库管理规范要求”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“组织资产库的出入库操作符合资产库管理规范要求”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "组织资产库的出入库操作执行不规范或不完整",
+          "description": "虽然已有相关内容或活动，但“组织资产库的出入库操作符合资产库管理规范要求”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“组织资产库的出入库操作符合资产库管理规范要求”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "组织资产库的出入库操作符合资产库管理规范要求的职责分工或参与范围不清",
+          "description": "与“组织资产库的出入库操作符合资产库管理规范要求”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“组织资产库的出入库操作符合资产库管理规范要求”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-7-ba7ba6de39": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "组织资产的使用审批不符合资产库管理规范的要求",
+          "description": "检查发现，检查项要求的“组织资产的使用审批符合资产库管理规范的要求”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“组织资产的使用审批符合资产库管理规范的要求”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "组织资产的使用审批执行不规范或不完整",
+          "description": "虽然已有相关内容或活动，但“组织资产的使用审批符合资产库管理规范的要求”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“组织资产的使用审批符合资产库管理规范的要求”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "符合资产库管理规范的要求的评审审批记录不完整",
+          "description": "与“组织资产的使用审批符合资产库管理规范的要求”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“组织资产的使用审批符合资产库管理规范的要求”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-8-a623ef539b": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "组织资产目录未定期或在更新时进行发布",
+          "description": "检查发现，检查项要求的“组织资产目录定期或在更新时进行发布”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“组织资产目录定期或在更新时进行发布”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "组织资产目录定期或在更新时进行发布落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“组织资产目录定期或在更新时进行发布”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“组织资产目录定期或在更新时进行发布”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "组织资产目录定期或在更新时进行发布的变更控制或同步更新不到位",
+          "description": "与“组织资产目录定期或在更新时进行发布”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“组织资产目录定期或在更新时进行发布”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    }
+  }
+}

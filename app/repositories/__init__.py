@@ -1,0 +1,2 @@
+"""Persistence adapters live here."""
+

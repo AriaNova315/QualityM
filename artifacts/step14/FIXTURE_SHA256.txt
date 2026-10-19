@@ -1,0 +1,12 @@
+# Step 14 fixed fixtures (2026-08-22)
+# Input and the complete output package must be kept together. Paths are repository-relative.
+1755adfe3e6d544b8129e7076eaa151ce5b20dd6e6da7291d0760d36cf4d81ff  项目相关信息表.xlsx
+0ccc16d89fe3db83dc810536a3c2dc9b37471926716d094863703832400b4407  fixtures/current-output-package/QualityM-03046-V1-01-系统分析与设计-阶段质量审核记录.xlsx
+283ee6834b225c1bb6bee25c02ce10f3d548717bd1eca98567112ea1bcb639a1  fixtures/current-output-package/QualityM-03046-V1-02-需求分析阶段-阶段质量审核记录.xlsx
+be86fd299a0b7c022e7d2a6bb5fbe48af6dd18d6ccc66f5b2a97a8ab4c660bbd  fixtures/current-output-package/QualityM-03046-V1-03-软件设计阶段-阶段质量审核记录.xlsx
+7e8f1e02b4a6ae138e8e2fd6d19dc3234438ad59be490484482fcf29831bfefb  fixtures/current-output-package/QualityM-03046-V1-04-软件编码与单元测试阶段-阶段质量审核记录.xlsx
+4324d26d910df7dbf00c3807166ed7415c94d98552d1a7138d9b2e75fb5c6d03  fixtures/current-output-package/QualityM-03046-V1-05-软件合格性测试及集成试运行阶段-阶段质量审核记录.xlsx
+dd431f4ae502586881756d089e28cafdda9e94f5d9db17d4c23fe1242167a526  fixtures/current-output-package/QualityM-03046-V1-06-验收与交付-阶段质量审核记录.xlsx
+c50af3b6febb06625410fc0fb641d54d2b1b1bc72e5c1a1a08d97c64c3493b45  fixtures/current-output-package/公司级质量保证过程审核记录.xlsx
+7013eef5535aebfe5f6abf2f90947c0c468b86a993f7a7a2e49346a0267686ba  fixtures/current-output-package/项目质量工作趋势分析.xlsx
+1f413688426a3c81b0593976640519ffd4b7af8cb4f6009dfe075957558e3c1a  fixtures/current-output-package/manifest.txt

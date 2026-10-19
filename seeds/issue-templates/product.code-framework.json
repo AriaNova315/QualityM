@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "checklist_stable_key": "product.code-framework",
+  "items": {
+    "item-1-4f172d6b80": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "business-fit",
+          "title": "代码框架与业务需求不匹配",
+          "description": "所选代码框架不能有效支持当前业务功能、运行约束或预期扩展方式。",
+          "corrective_suggestion": "结合业务需求、运行环境和扩展目标重新评估代码框架，必要时调整框架或补充适配设计。"
+        },
+        {
+          "stable_key": "architecture-constraints",
+          "title": "代码框架的适用条件和技术约束未说明",
+          "description": "虽选定了代码框架，但未说明适用范围、依赖条件、技术限制及不适用场景。",
+          "corrective_suggestion": "补充框架的适用范围、关键依赖和限制条件，并验证这些条件与项目实际环境一致。"
+        }
+      ]
+    },
+    "item-2-89d7e65383": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "代码框架未自洽",
+          "description": "检查发现，检查项要求的“代码框架自洽”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“代码框架自洽”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "代码框架自洽落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“代码框架自洽”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“代码框架自洽”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-3-9496b37f7b": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "代码框架未具有可扩展性",
+          "description": "检查发现，检查项要求的“代码框架具有可扩展性”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“代码框架具有可扩展性”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "代码框架具有可扩展性落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“代码框架具有可扩展性”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“代码框架具有可扩展性”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-4-c0edaa7a3c": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "代码框架未具备可维护性",
+          "description": "检查发现，检查项要求的“代码框架具备可维护性”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“代码框架具备可维护性”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "代码框架具备可维护性落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“代码框架具备可维护性”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“代码框架具备可维护性”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-5-36df36aab7": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "代码框架未具有可重用性",
+          "description": "检查发现，检查项要求的“代码框架具有可重用性”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“代码框架具有可重用性”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "代码框架的可重用性不足",
+          "description": "虽然已有相关内容或活动，但“代码框架具有可重用性”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“代码框架具有可重用性”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    }
+  }
+}

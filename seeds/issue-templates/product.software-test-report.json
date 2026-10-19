@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "checklist_stable_key": "product.software-test-report",
+  "items": {
+    "item-1-a3352dd5fc": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未完整准确记录软件的完整标识",
+          "description": "检查发现，检查项要求的“完整、准确记录了软件的完整标识”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“完整、准确记录了软件的完整标识”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "软件的完整标识的记录存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“完整、准确记录了软件的完整标识”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“完整、准确记录了软件的完整标识”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "软件的完整标识的记录缺失或无法追溯",
+          "description": "与“完整、准确记录了软件的完整标识”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“完整、准确记录了软件的完整标识”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-2-350c923e20": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未正确记录本文档所适用对象的用途",
+          "description": "检查发现，检查项要求的“正确记录了本文档所适用对象的用途”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“正确记录了本文档所适用对象的用途”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "本文档所适用对象的用途的记录存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“正确记录了本文档所适用对象的用途”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“正确记录了本文档所适用对象的用途”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "本文档所适用对象的用途的记录缺失或无法追溯",
+          "description": "与“正确记录了本文档所适用对象的用途”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“正确记录了本文档所适用对象的用途”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-3-32f1ae979c": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未完整准确记录本测试报告的依据",
+          "description": "检查发现，检查项要求的“完整、准确记录了本测试报告的依据”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“完整、准确记录了本测试报告的依据”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "本测试报告的依据的记录存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“完整、准确记录了本测试报告的依据”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“完整、准确记录了本测试报告的依据”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "本测试报告的依据缺少明确的范围、方法或判定准则",
+          "description": "与“完整、准确记录了本测试报告的依据”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“完整、准确记录了本测试报告的依据”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-4-b38191ed11": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未准确说明本测试报告的级别（单元测试、集成测试、合格性测试）",
+          "description": "检查发现，检查项要求的“准确地说明了本测试报告的级别（单元测试、集成测试、合格性测试）”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“准确地说明了本测试报告的级别（单元测试、集成测试、合格性测试）”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "本测试报告的级别（单元测试、集成测试、合格性测试）的说明存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“准确地说明了本测试报告的级别（单元测试、集成测试、合格性测试）”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“准确地说明了本测试报告的级别（单元测试、集成测试、合格性测试）”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "本测试报告的级别（单元测试、集成测试、合格性测试）缺少明确的范围、方法或判定准则",
+          "description": "与“准确地说明了本测试报告的级别（单元测试、集成测试、合格性测试）”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“准确地说明了本测试报告的级别（单元测试、集成测试、合格性测试）”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-5-9533cc6ee4": {
+      "default_severity": "一般",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未完整准确地说明测试过程",
+          "description": "检查发现，检查项要求的“完整、准确地说明了测试过程”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“完整、准确地说明了测试过程”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "测试过程的说明存在遗漏或错误",
+          "description": "虽然已有相关内容或活动，但“完整、准确地说明了测试过程”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“完整、准确地说明了测试过程”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "测试过程缺少明确的范围、方法或判定准则",
+          "description": "与“完整、准确地说明了测试过程”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“完整、准确地说明了测试过程”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-6-917a1cf2ec": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未对被测软件有总体评估",
+          "description": "检查发现，检查项要求的“对被测软件有总体评估”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“对被测软件有总体评估”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "对被测软件有总体评估落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“对被测软件有总体评估”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“对被测软件有总体评估”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        }
+      ]
+    },
+    "item-7-93d55ca67d": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "未完整准确的记录测试用例执行结果",
+          "description": "检查发现，检查项要求的“完整、准确的记录了测试用例执行结果”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“完整、准确的记录了测试用例执行结果”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "的记录测试用例执行结果落实不完整或不规范",
+          "description": "虽然已有相关内容或活动，但“完整、准确的记录了测试用例执行结果”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“完整、准确的记录了测试用例执行结果”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "测试用例执行结果缺少明确的范围、方法或判定准则",
+          "description": "与“完整、准确的记录了测试用例执行结果”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“完整、准确的记录了测试用例执行结果”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    },
+    "item-8-ceb300aa39": {
+      "default_severity": "严重",
+      "issues": [
+        {
+          "stable_key": "requirement-missing",
+          "title": "缺少完整的问题报告单",
+          "description": "检查发现，检查项要求的“有完整的问题报告单”未得到落实，相关文档、活动或结果中缺少对应内容。",
+          "corrective_suggestion": "依据适用要求补充并落实“有完整的问题报告单”，完成后对落实结果进行复核。"
+        },
+        {
+          "stable_key": "requirement-incomplete",
+          "title": "完整的问题报告单内容不完整或记录不规范",
+          "description": "虽然已有相关内容或活动，但“有完整的问题报告单”仅得到部分落实，存在遗漏、不准确或不可执行的情况。",
+          "corrective_suggestion": "逐项对照“有完整的问题报告单”核对现有内容，补齐遗漏、修正错误，并确认修改后的结果能够执行和复查。"
+        },
+        {
+          "stable_key": "control-gap",
+          "title": "有完整的问题报告单的记录缺失或无法追溯",
+          "description": "与“有完整的问题报告单”相关的依据、过程控制或结果记录不完整，不能证明该项要求已按规定形成闭环。",
+          "corrective_suggestion": "围绕“有完整的问题报告单”补充必要的依据、责任、过程记录和结果确认，并核对相关内容保持一致。"
+        }
+      ]
+    }
+  }
+}

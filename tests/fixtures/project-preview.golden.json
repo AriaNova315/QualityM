@@ -1,0 +1,1820 @@
+{
+  "config_items": [
+    {
+      "identifier": "ZDPX03046/0.0-YZRW",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件研制任务书",
+      "phase_wbs": "1",
+      "phase_wbs_formula": "=项目进度计划!A2",
+      "review_date": "2025-12-25",
+      "sequence": 1,
+      "source": {
+        "row": 2,
+        "sheet": "配置项清单"
+      },
+      "source_order": 1,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-JSXY",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件外包产品技术协议",
+      "phase_wbs": "1",
+      "phase_wbs_formula": "=G2",
+      "review_date": null,
+      "sequence": 2,
+      "source": {
+        "row": 3,
+        "sheet": "配置项清单"
+      },
+      "source_order": 2,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-KFJH",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件开发计划",
+      "phase_wbs": "2",
+      "phase_wbs_formula": null,
+      "review_date": "2026-01-07",
+      "sequence": 3,
+      "source": {
+        "row": 4,
+        "sheet": "配置项清单"
+      },
+      "source_order": 3,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-CLJH",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件测量分析计划",
+      "phase_wbs": "2",
+      "phase_wbs_formula": null,
+      "review_date": "2026-01-07",
+      "sequence": 4,
+      "source": {
+        "row": 5,
+        "sheet": "配置项清单"
+      },
+      "source_order": 4,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-ZBJH",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件质量保证计划",
+      "phase_wbs": "2",
+      "phase_wbs_formula": null,
+      "review_date": "2026-01-07",
+      "sequence": 5,
+      "source": {
+        "row": 6,
+        "sheet": "配置项清单"
+      },
+      "source_order": 5,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-PGJH",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件配置管理计划",
+      "phase_wbs": "2",
+      "phase_wbs_formula": null,
+      "review_date": "2026-01-07",
+      "sequence": 6,
+      "source": {
+        "row": 7,
+        "sheet": "配置项清单"
+      },
+      "source_order": 6,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-RJXG",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件需求规格说明",
+      "phase_wbs": "2",
+      "phase_wbs_formula": null,
+      "review_date": "2026-01-19",
+      "sequence": 7,
+      "source": {
+        "row": 8,
+        "sheet": "配置项清单"
+      },
+      "source_order": 7,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-RJSJ",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件设计说明",
+      "phase_wbs": "3",
+      "phase_wbs_formula": null,
+      "review_date": "2026-02-03",
+      "sequence": 8,
+      "source": {
+        "row": 9,
+        "sheet": "配置项清单"
+      },
+      "source_order": 8,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-RJJK",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件接口设计说明",
+      "phase_wbs": "3",
+      "phase_wbs_formula": null,
+      "review_date": "2026-02-03",
+      "sequence": 9,
+      "source": {
+        "row": 10,
+        "sheet": "配置项清单"
+      },
+      "source_order": 9,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-DCJH",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件单元测试计划",
+      "phase_wbs": "3",
+      "phase_wbs_formula": null,
+      "review_date": "2026-02-06",
+      "sequence": 10,
+      "source": {
+        "row": 11,
+        "sheet": "配置项清单"
+      },
+      "source_order": 10,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-DCBG",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件单元测试报告",
+      "phase_wbs": "4",
+      "phase_wbs_formula": null,
+      "review_date": "2026-03-11",
+      "sequence": 11,
+      "source": {
+        "row": 12,
+        "sheet": "配置项清单"
+      },
+      "source_order": 11,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-RJSC",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件用户手册",
+      "phase_wbs": "5",
+      "phase_wbs_formula": null,
+      "review_date": "2026-03-20",
+      "sequence": 12,
+      "source": {
+        "row": 13,
+        "sheet": "配置项清单"
+      },
+      "source_order": 12,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-HCJH",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件测试计划",
+      "phase_wbs": "2",
+      "phase_wbs_formula": null,
+      "review_date": "2026-01-22",
+      "sequence": 13,
+      "source": {
+        "row": 14,
+        "sheet": "配置项清单"
+      },
+      "source_order": 13,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-HCSM",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件测试说明",
+      "phase_wbs": "6",
+      "phase_wbs_formula": null,
+      "review_date": "2026-03-13",
+      "sequence": 14,
+      "source": {
+        "row": 15,
+        "sheet": "配置项清单"
+      },
+      "source_order": 14,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-HCBG",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件测试报告",
+      "phase_wbs": "6",
+      "phase_wbs_formula": null,
+      "review_date": "2026-03-23",
+      "sequence": 15,
+      "source": {
+        "row": 16,
+        "sheet": "配置项清单"
+      },
+      "source_order": 15,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-YZBG",
+      "item_type": "文档",
+      "name": "相控阵数字样机软件研制总结报告",
+      "phase_wbs": "7",
+      "phase_wbs_formula": null,
+      "review_date": "2026-04-20",
+      "sequence": 16,
+      "source": {
+        "row": 17,
+        "sheet": "配置项清单"
+      },
+      "source_order": 16,
+      "version": "V1.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-SRC",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件源代码",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 17,
+      "source": {
+        "row": 18,
+        "sheet": "配置项清单"
+      },
+      "source_order": 17,
+      "version": "V0.0.3"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-SRC",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件源代码",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 18,
+      "source": {
+        "row": 19,
+        "sheet": "配置项清单"
+      },
+      "source_order": 18,
+      "version": "V0.0.4"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-SRC",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件源代码",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 19,
+      "source": {
+        "row": 20,
+        "sheet": "配置项清单"
+      },
+      "source_order": 19,
+      "version": "V1.0.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-SRC",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件源代码",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 20,
+      "source": {
+        "row": 21,
+        "sheet": "配置项清单"
+      },
+      "source_order": 20,
+      "version": "V2.0.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-SRC",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件源代码",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 21,
+      "source": {
+        "row": 22,
+        "sheet": "配置项清单"
+      },
+      "source_order": 21,
+      "version": "V3.0.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-EXE",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件可执行程序",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 22,
+      "source": {
+        "row": 23,
+        "sheet": "配置项清单"
+      },
+      "source_order": 22,
+      "version": "V0.0.3"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-EXE",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件可执行程序",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 23,
+      "source": {
+        "row": 24,
+        "sheet": "配置项清单"
+      },
+      "source_order": 23,
+      "version": "V0.0.4"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-EXE",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件可执行程序",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 24,
+      "source": {
+        "row": 25,
+        "sheet": "配置项清单"
+      },
+      "source_order": 24,
+      "version": "V1.0.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-EXE",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件可执行程序",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 25,
+      "source": {
+        "row": 26,
+        "sheet": "配置项清单"
+      },
+      "source_order": 25,
+      "version": "V2.0.0"
+    },
+    {
+      "identifier": "ZDPX03046/0.0-EXE",
+      "item_type": "代码",
+      "name": "相控阵数字样机软件可执行程序",
+      "phase_wbs": "",
+      "phase_wbs_formula": null,
+      "review_date": null,
+      "sequence": 26,
+      "source": {
+        "row": 27,
+        "sheet": "配置项清单"
+      },
+      "source_order": 26,
+      "version": "V3.0.0"
+    }
+  ],
+  "diagnostics": [],
+  "excluded_top_level": [
+    {
+      "end_date": "2026-03-12",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "公司质量验证",
+      "reason": "excluded_company_validation",
+      "resources": [
+        "刘喻"
+      ],
+      "source": {
+        "row": 139,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 138,
+      "start_date": "2026-03-12",
+      "wbs": "5",
+      "wbs_depth": 1
+    }
+  ],
+  "phases": [
+    {
+      "detected_as_phase": true,
+      "end_date": "2025-12-26",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "系统分析与设计",
+      "resources": [],
+      "source": {
+        "row": 2,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 1,
+      "start_date": "2025-12-15",
+      "wbs": "1",
+      "wbs_depth": 1
+    },
+    {
+      "detected_as_phase": true,
+      "end_date": "2026-01-23",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "需求分析阶段",
+      "resources": [],
+      "source": {
+        "row": 25,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 24,
+      "start_date": "2025-12-29",
+      "wbs": "2",
+      "wbs_depth": 1
+    },
+    {
+      "detected_as_phase": true,
+      "end_date": "2026-02-09",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "软件设计阶段",
+      "resources": [],
+      "source": {
+        "row": 68,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 67,
+      "start_date": "2026-01-26",
+      "wbs": "3",
+      "wbs_depth": 1
+    },
+    {
+      "detected_as_phase": true,
+      "end_date": "2026-03-11",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "软件编码与单元测试阶段",
+      "resources": [],
+      "source": {
+        "row": 98,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 97,
+      "start_date": "2026-02-10",
+      "wbs": "4",
+      "wbs_depth": 1
+    },
+    {
+      "detected_as_phase": true,
+      "end_date": "2026-03-30",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "软件合格性测试及集成试运行阶段",
+      "resources": [],
+      "source": {
+        "row": 140,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 139,
+      "start_date": "2026-03-12",
+      "wbs": "6",
+      "wbs_depth": 1
+    },
+    {
+      "detected_as_phase": true,
+      "end_date": "2026-04-20",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "验收与交付",
+      "resources": [],
+      "source": {
+        "row": 181,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 180,
+      "start_date": "2026-03-31",
+      "wbs": "7",
+      "wbs_depth": 1
+    }
+  ],
+  "project": {
+    "project_code": "03046",
+    "project_leader": "赵要浦",
+    "project_name": "相控阵数字样机软件",
+    "qa_person": "高蕾",
+    "source": {
+      "row": 2,
+      "sheet": "项目信息"
+    }
+  },
+  "quality_activities": [
+    {
+      "end_date": "2025-12-24",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件研制任务书"
+      ],
+      "linked_items_formula": "=E13",
+      "name": "产品审核-审核软件研制任务书",
+      "parent_wbs": "1.5",
+      "phase_wbs": "1",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 18,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 17,
+      "start_date": "2025-12-24",
+      "wbs": "1.5.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2025-12-25",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核需求开发与管理过程",
+      "parent_wbs": "1.5",
+      "phase_wbs": "1",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 19,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 18,
+      "start_date": "2025-12-25",
+      "wbs": "1.5.2",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2025-12-25",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核验证与确认过程",
+      "parent_wbs": "1.5",
+      "phase_wbs": "1",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 20,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 19,
+      "start_date": "2025-12-25",
+      "wbs": "1.5.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2025-12-26",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理过程-阶段末",
+      "parent_wbs": "1.5",
+      "phase_wbs": "1",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 21,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 20,
+      "start_date": "2025-12-26",
+      "wbs": "1.5.4",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2025-12-26",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告",
+      "parent_wbs": "1.5",
+      "phase_wbs": "1",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 22,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 21,
+      "start_date": "2025-12-26",
+      "wbs": "1.5.5",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-08",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目策划过程",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 53,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 52,
+      "start_date": "2026-01-08",
+      "wbs": "2.6.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核验证与确认过程",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 54,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 53,
+      "start_date": "2026-01-23",
+      "wbs": "2.6.2",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核需求开发与管理过程",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 55,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 54,
+      "start_date": "2026-01-23",
+      "wbs": "2.6.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理过程-阶段",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 56,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 55,
+      "start_date": "2026-01-23",
+      "wbs": "2.6.4",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-12",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控过程-双周",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 57,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 56,
+      "start_date": "2026-01-12",
+      "wbs": "2.6.5",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-12",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理过程-双周",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 58,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 57,
+      "start_date": "2026-01-12",
+      "wbs": "2.6.6",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控过程-阶段",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 59,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 58,
+      "start_date": "2026-01-23",
+      "wbs": "2.6.7",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理过程-阶段",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 60,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 59,
+      "start_date": "2026-01-23",
+      "wbs": "2.6.8",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-06",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件开发计划",
+        "相控阵数字样机软件测量分析计划",
+        "相控阵数字样机软件质量保证计划",
+        "相控阵数字样机软件配置管理计划"
+      ],
+      "linked_items_formula": "=E45",
+      "name": "产品审核-软件开发计划等",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 61,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 60,
+      "start_date": "2026-01-06",
+      "wbs": "2.6.9",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-15",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件需求规格说明"
+      ],
+      "linked_items_formula": "=E46",
+      "name": "产品审核-软件需求规格说明",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 62,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 61,
+      "start_date": "2026-01-15",
+      "wbs": "2.6.10",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-21",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件测试计划"
+      ],
+      "linked_items_formula": "=E47",
+      "name": "产品审核-合格性测试计划",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 63,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 62,
+      "start_date": "2026-01-21",
+      "wbs": "2.6.11",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-12",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告-双周",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 64,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 63,
+      "start_date": "2026-01-12",
+      "wbs": "2.6.12",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告-阶段",
+      "parent_wbs": "2.6",
+      "phase_wbs": "2",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 65,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 64,
+      "start_date": "2026-01-23",
+      "wbs": "2.6.13",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-27",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目策划过程",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 87,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 86,
+      "start_date": "2026-01-27",
+      "wbs": "3.6.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核验证与确认过程",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 88,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 87,
+      "start_date": "2026-02-09",
+      "wbs": "3.6.2",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核需求开发与管理过程",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 89,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 88,
+      "start_date": "2026-02-09",
+      "wbs": "3.6.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理-阶段",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 90,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 89,
+      "start_date": "2026-02-09",
+      "wbs": "3.6.4",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控-阶段",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 91,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 90,
+      "start_date": "2026-02-09",
+      "wbs": "3.6.5",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理-阶段",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 92,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 91,
+      "start_date": "2026-02-09",
+      "wbs": "3.6.6",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-02",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件设计说明",
+        "相控阵数字样机软件接口设计说明"
+      ],
+      "linked_items_formula": "=E82",
+      "name": "产品审核-软件设计说明",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 93,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 92,
+      "start_date": "2026-02-02",
+      "wbs": "3.6.7",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-05",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件单元测试计划"
+      ],
+      "linked_items_formula": "=E83",
+      "name": "产品审核-软件单元测试计划",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 94,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 93,
+      "start_date": "2026-02-05",
+      "wbs": "3.6.8",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告-阶段",
+      "parent_wbs": "3.6",
+      "phase_wbs": "3",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 95,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 94,
+      "start_date": "2026-02-09",
+      "wbs": "3.6.9",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目策划过程",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 124,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 123,
+      "start_date": "2026-02-11",
+      "wbs": "4.6.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核验证与确认过程",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 125,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 124,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.2",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核需求开发与管理过程",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 126,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 125,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-27",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理过程-月",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 127,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 126,
+      "start_date": "2026-02-27",
+      "wbs": "4.6.4",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理过程-阶段末",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 128,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 127,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.5",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-24",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控-双周",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 129,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 128,
+      "start_date": "2026-02-24",
+      "wbs": "4.6.6",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-24",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理-双周",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 130,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 129,
+      "start_date": "2026-02-24",
+      "wbs": "4.6.7",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控-阶段",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 131,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 130,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.8",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理-阶段",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 132,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 131,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.9",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核质量保证-公司",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "刘喻"
+      ],
+      "source": {
+        "row": 133,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 132,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.10",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件单元测试报告"
+      ],
+      "linked_items_formula": "=配置项清单!B12",
+      "name": "产品审核-单元测试报告",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 134,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 133,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.11",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-24",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告-双周",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 135,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 134,
+      "start_date": "2026-02-24",
+      "wbs": "4.6.12",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告-阶段",
+      "parent_wbs": "4.6",
+      "phase_wbs": "4",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 136,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 135,
+      "start_date": "2026-03-11",
+      "wbs": "4.6.13",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-13",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目策划",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 169,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 168,
+      "start_date": "2026-03-13",
+      "wbs": "6.7.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核验证与确认过程",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 170,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 169,
+      "start_date": "2026-03-30",
+      "wbs": "6.7.2",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核需求开发与管理",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 171,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 170,
+      "start_date": "2026-03-30",
+      "wbs": "6.7.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理过程-阶段",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 172,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 171,
+      "start_date": "2026-03-30",
+      "wbs": "6.7.4",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控过程-阶段",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 173,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 172,
+      "start_date": "2026-03-30",
+      "wbs": "6.7.5",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理-阶段",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 174,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 173,
+      "start_date": "2026-03-30",
+      "wbs": "6.7.6",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-12",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件测试说明"
+      ],
+      "linked_items_formula": "=E157",
+      "name": "产品审核-合格性测试说明",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 175,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 174,
+      "start_date": "2026-03-12",
+      "wbs": "6.7.7",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-23",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件测试报告"
+      ],
+      "linked_items_formula": "=配置项清单!B16",
+      "name": "产品审核-合格性测试报告",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 176,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 175,
+      "start_date": "2026-03-23",
+      "wbs": "6.7.8",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-20",
+      "is_report_activity": false,
+      "linked_items": [
+        "相控阵数字样机软件用户手册"
+      ],
+      "linked_items_formula": "=配置项清单!B13",
+      "name": "产品审核-用户手册",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 177,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 176,
+      "start_date": "2026-03-20",
+      "wbs": "6.7.9",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量审核报告-阶段末",
+      "parent_wbs": "6.7",
+      "phase_wbs": "6",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 178,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 177,
+      "start_date": "2026-03-30",
+      "wbs": "6.7.10",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-01",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目策划",
+      "parent_wbs": "7.5",
+      "phase_wbs": "7",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 196,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 195,
+      "start_date": "2026-04-01",
+      "wbs": "7.5.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-20",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核验证与确认过程",
+      "parent_wbs": "7.5",
+      "phase_wbs": "7",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 197,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 196,
+      "start_date": "2026-04-20",
+      "wbs": "7.5.2",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-20",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核配置管理过程-阶段",
+      "parent_wbs": "7.5",
+      "phase_wbs": "7",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 198,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 197,
+      "start_date": "2026-04-20",
+      "wbs": "7.5.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-20",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核项目监控过程-阶段",
+      "parent_wbs": "7.5",
+      "phase_wbs": "7",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 199,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 198,
+      "start_date": "2026-04-20",
+      "wbs": "7.5.4",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-20",
+      "is_report_activity": false,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "审核测量与绩效管理-阶段",
+      "parent_wbs": "7.5",
+      "phase_wbs": "7",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 200,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 199,
+      "start_date": "2026-04-20",
+      "wbs": "7.5.5",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-20",
+      "is_report_activity": true,
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "拟制质量工作总结报告",
+      "parent_wbs": "7.5",
+      "phase_wbs": "7",
+      "resources": [
+        "高蕾"
+      ],
+      "source": {
+        "row": 201,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 200,
+      "start_date": "2026-04-20",
+      "wbs": "7.5.6",
+      "wbs_depth": 3
+    }
+  ],
+  "schedule_row_count": 200,
+  "schema_version": 1,
+  "tracking_nodes": [
+    {
+      "end_date": "2026-01-12",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "双周进度跟踪",
+      "node_date": "2026-01-12",
+      "node_type": "双周",
+      "parent_wbs": "2.4",
+      "phase_wbs": "2",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 40,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 39,
+      "start_date": "2026-01-12",
+      "wbs": "2.4.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-01-23",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "阶段进度跟踪",
+      "node_date": "2026-01-23",
+      "node_type": "阶段",
+      "parent_wbs": "2.4",
+      "phase_wbs": "2",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 42,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 41,
+      "start_date": "2026-01-23",
+      "wbs": "2.4.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-09",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "阶段进度跟踪",
+      "node_date": "2026-02-09",
+      "node_type": "阶段",
+      "parent_wbs": "3.4",
+      "phase_wbs": "3",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 79,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 78,
+      "start_date": "2026-02-09",
+      "wbs": "3.4.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-02-24",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "双周进度跟踪",
+      "node_date": "2026-02-24",
+      "node_type": "双周",
+      "parent_wbs": "4.4",
+      "phase_wbs": "4",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 114,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 113,
+      "start_date": "2026-02-24",
+      "wbs": "4.4.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-11",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "阶段进度跟踪",
+      "node_date": "2026-03-11",
+      "node_type": "阶段",
+      "parent_wbs": "4.4",
+      "phase_wbs": "4",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 116,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 115,
+      "start_date": "2026-03-11",
+      "wbs": "4.4.3",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-03-30",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "阶段进度跟踪",
+      "node_date": "2026-03-30",
+      "node_type": "阶段",
+      "parent_wbs": "6.5",
+      "phase_wbs": "6",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 154,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 153,
+      "start_date": "2026-03-30",
+      "wbs": "6.5.1",
+      "wbs_depth": 3
+    },
+    {
+      "end_date": "2026-04-20",
+      "linked_items": [],
+      "linked_items_formula": null,
+      "name": "项目跟踪-阶段",
+      "node_date": "2026-04-20",
+      "node_type": "阶段",
+      "parent_wbs": "7.3",
+      "phase_wbs": "7",
+      "resources": [
+        "赵要浦"
+      ],
+      "source": {
+        "row": 188,
+        "sheet": "项目进度计划"
+      },
+      "source_order": 187,
+      "start_date": "2026-04-20",
+      "wbs": "7.3.1",
+      "wbs_depth": 3
+    }
+  ]
+}
