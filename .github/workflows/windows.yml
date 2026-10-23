@@ -19,7 +19,8 @@ jobs:
           python-version: '3.12'
           architecture: x64
       - name: Prepare offline dependencies
-        run: python -m pip download --only-binary=:all: --dest wheelhouse -r requirements.txt
+        run: >-
+          python -m pip download --only-binary=:all: --dest wheelhouse -r requirements.txt
       - name: Install from offline dependencies
         run: python -m pip install --no-index --find-links=wheelhouse -r requirements.txt
       - name: Check installed dependencies
