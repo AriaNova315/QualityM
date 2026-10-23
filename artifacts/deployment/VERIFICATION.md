@@ -27,3 +27,13 @@
 新增 GitHub Actions：Windows x64 / CPython 3.12，先下载 wheelhouse，再通过 --no-index 安装，执行 pip check 和全量 pytest。执行结果以 GitHub 对应提交的 Windows deployment checks 为准。
 
 自动化测试涵盖数据库/API/工作簿结构及缓存，不包括真实浏览器交互和 Microsoft Excel GUI 重算联动。部署人员仍应按 README 在目标机完成离线操作验收。
+
+## Windows 首轮发现与修正
+
+Windows/Python 3.12.10 已实际完成依赖下载、--no-index 安装和 pip check。首轮完整测试为 149 passed、3 failed，运行约 19 分钟，工作流触及 20 分钟时限。三个失败分别是：
+
+- 规范 JSON 写入使用平台默认换行，Windows 生成 CRLF，而版本化种子固定 LF。修正写入函数显式使用 LF，保持种子字节与版本指纹一致。
+- 种子校验脚本将 sqlite3 事务上下文误作连接关闭，Windows 无法删除仍打开的临时数据库。使用 contextlib.closing 显式关闭连接。
+- HTTP 导出测试以固定 200 次、50ms 间隔轮询，Windows runner 导出尚未结束就超过次数。改为单调时钟 180 秒明确时限、500ms 间隔，保持 completed/failed 状态及下载校验断言。
+
+三个对应失败用例在本地修正后均通过（3 passed）。Windows 工作流先运行这三个用例，再执行全量测试，任务时限调整为 45 分钟并输出慢测试耗时。后续执行结果仍以对应提交的 Actions 为准。

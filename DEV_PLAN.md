@@ -856,6 +856,8 @@ NO UNRESOLVED DECISIONS
 
 ## 2026-10-23 离线 Windows 部署适配
 
+Windows 首轮为 149 passed、3 failed，已按日志定位并修正规范 JSON 换行、种子校验脚本 SQLite 连接关闭、导出测试固定轮询次数三处跨平台问题。三个失败用例本地回归通过；Windows CI 调整为先验证三处回归再运行全量，增加时限以适配实际 Windows 耗时。详见部署验证记录及 GitHub Actions。
+
 交付收口：本地 Alpine.js、完整模板资源、全新部署说明和 Windows/Python 3.12 CI 一并提交。修正公式缓存写入时源 ZIP 未关闭即替换文件的 Windows 兼容问题，并补充句柄关闭及失败清理回归。实际暂存区导出到独立临时目录后，全量 152 个测试通过；使用该目录的 run.py 在 8003 启动，健康检查、静态资源、空项目列表和模板接口正常。验证详情见 `artifacts/deployment/VERIFICATION.md`。Windows CI 结果以对应 GitHub 提交的 Actions 为准；真实 Excel GUI 联动仍须在目标机验收。
 
 交付方式已由用户确认：全新部署，交付方提供代码、模板资源和 README，部署方负责下载及安装依赖；不携带旧数据库、导出记录、临时数据和本地环境，不涉及历史导出路径迁移。本次确认仅更新部署文档，未改动运行逻辑，未新增测试。

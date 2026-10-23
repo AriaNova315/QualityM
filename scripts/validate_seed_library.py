@@ -6,6 +6,7 @@ import json
 import sqlite3
 import sys
 import tempfile
+from contextlib import closing
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,7 +37,7 @@ async def validate(seed_path: Path) -> dict[str, int | str]:
         violations = await foreign_key_violations(database_path)
         if violations:
             raise RuntimeError(f"Foreign key violations after seed import: {violations}")
-        with sqlite3.connect(database_path) as connection:
+        with closing(sqlite3.connect(database_path)) as connection:
             counts = {
                 "checklists": connection.execute(
                     "SELECT COUNT(*) FROM checklist_templates"

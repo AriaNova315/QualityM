@@ -32,14 +32,15 @@ async def _create_project(settings) -> int:
 
 
 async def _wait_for_terminal(client: httpx.AsyncClient, job_id: int) -> dict:
-    for _ in range(200):
+    deadline = asyncio.get_running_loop().time() + 180
+    while asyncio.get_running_loop().time() < deadline:
         response = await client.get(f"/api/exports/{job_id}")
         assert response.status_code == 200
         payload = response.json()
         if payload["status"] in {"completed", "failed"}:
             return payload
-        await asyncio.sleep(0.05)
-    raise AssertionError("Export job did not finish")
+        await asyncio.sleep(0.5)
+    raise AssertionError(f"Export job did not finish within 180 seconds: {payload}")
 
 
 def test_export_api_builds_downloadable_manifest_and_is_idempotent(test_settings) -> None:
