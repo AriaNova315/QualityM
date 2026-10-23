@@ -4,6 +4,8 @@ __pycache__/
 .coverage
 htmlcov/
 .venv/
+.prepare-venv/
+wheelhouse/
 qualitym.db
 generated/
 var/

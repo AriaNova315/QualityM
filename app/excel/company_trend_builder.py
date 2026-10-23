@@ -6,16 +6,19 @@ from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.chart import LineChart, PieChart, Reference
+from openpyxl.chart.data_source import NumData, NumVal, StrData, StrVal, StrRef
+from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 
 from app.application.export_snapshot_service import ExportSnapshot
 from app.excel.external_links import add_external_workbook_link
+from app.excel.formula_cache import write_formula_caches
 from app.excel.formulas import Formula, external_reference, write_formula, write_literal_cell
 from app.excel.phase_workbook_builder import (
     CALCULATION_SHEET, _AUDIT_REPORT_TEMPLATE_SHEET,
     _AuditSheetInfo, _PRODUCT_CHECKLIST_REFERENCE, _PROCESS_CHECKLIST_REFERENCE,
     _REPORT_REFERENCE, _audit_object, _build_audit_report, _build_checklist,
-    _set_recalculation, _style_range,
+    _set_recalculation, _style_range, trend_summary,
 )
 from app.excel.sheet_names import safe_filename_component, safe_sheet_name
 
@@ -102,30 +105,31 @@ def build_trend_workbook(snapshot: ExportSnapshot, phase_paths: tuple[Path, ...]
     headers = ("阶段", "NC总数", "轻微", "一般", "严重", "RDM", "PP", "PMC", "CM", "MT", "MPM", "VV", "LD", "II", "工作产品")
     for col, value in enumerate(headers, 1): ws.cell(3, col, value)
     _style(ws, "A3:O3", _HEADER)
-    path_by_phase = {path.name.split("-", 5)[3]: path for path in phase_paths}
-    links = {}
-    for phase in snapshot.phases:
+    paths = {path.name: path for path in phase_paths}
+    summaries = [trend_summary(phase) for phase in snapshot.phases]
+    cached = {}
+    labels = ("NC总数", "轻微", "一般", "严重", *_CATEGORIES)
+    for row, (phase, counts) in enumerate(zip(snapshot.phases, summaries, strict=True), 4):
+        ws.cell(row, 1, phase.name)
         if any(a.report_scope == "phase" for a in phase.audits):
-            filename = next(path.name for path in phase_paths if f"-{phase.sort_order:02d}-" in path.name)
-            links[phase.id] = add_external_workbook_link(book, target=filename, sheet_names=(CALCULATION_SHEET,))
-    for row, phase in enumerate(snapshot.phases, 4):
-        ws.cell(row, 1, phase.name); link = links.get(phase.id)
-        if link:
-            ref = lambda cell: external_reference(link, CALCULATION_SHEET, cell)
-            labels = ref("$A:$A")
-            values = ref("$B:$B")
-            for col, label in ((2, "NC总数"), (3, "轻微"), (4, "一般"), (5, "严重")):
-                write_formula(
-                    ws.cell(row, col),
-                    Formula(f'=IFERROR(INDEX({values},MATCH("{label}",{labels},0)),0)'),
-                )
-            for col, category in enumerate(_CATEGORIES, 6):
-                write_formula(
-                    ws.cell(row, col),
-                    Formula(f'=IFERROR(INDEX({values},MATCH("{category}",{labels},0)),0)'),
-                )
+            filename = safe_filename_component(
+                f"QualityM-{snapshot.project_code}-V{snapshot.version_no}-{phase.sort_order:02d}-{phase.name}-阶段质量审核记录"
+            ) + ".xlsx"
+            if filename not in paths:
+                raise ValueError(f"Missing phase workbook: {filename}")
+            summary_start = counts["NC总数"] + 3
+            source_cells = {f"B{summary_start + i}": counts[label] for i, label in enumerate(labels)}
+            link = add_external_workbook_link(book, target=filename,
+                sheet_names=(CALCULATION_SHEET,), cached_cells=source_cells)
+            for col, label in enumerate(labels, 2):
+                # A failed link must remain visible, never masquerade as zero NCs.
+                write_formula(ws.cell(row, col), Formula(
+                    "=" + external_reference(link, CALCULATION_SHEET, f"$B${summary_start + col - 2}")
+                ))
+                cached[ws.cell(row, col).coordinate] = counts[label]
         else:
-            for col in range(2, 16): ws.cell(row, col, 0)
+            for col in range(2, 16):
+                ws.cell(row, col, 0)
     total = 4 + len(snapshot.phases)
     ws.cell(total, 1, "合计")
     for col in range(2, 16): write_formula(ws.cell(total, col), Formula(f"=SUM({ws.cell(4,col).coordinate}:{ws.cell(total-1,col).coordinate})"))
@@ -162,7 +166,38 @@ def build_trend_workbook(snapshot: ExportSnapshot, phase_paths: tuple[Path, ...]
     ws.page_setup.orientation = ws.ORIENTATION_LANDSCAPE
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = 1
-    book.save(output_path); book.close(); return output_path
+    totals = {label: sum(counts[label] for counts in summaries) for label in labels}
+    for col, label in enumerate(labels, 2):
+        cached[f"{get_column_letter(col)}{total}"] = totals[label]
+    if not snapshot.trend_conclusion_override:
+        cached[f"A{total+2}"] = (
+            f"当前项目共发现{totals['NC总数']}项不符合项，其中严重{totals['严重']}项。"
+            if totals["NC总数"] else "当前项目未发现不符合项。"
+        )
+    for row, category in enumerate(_CATEGORIES, 4):
+        cached[f"R{row}"] = totals[category]
+        cached[f"S{row}"] = totals[category] / totals["NC总数"] if totals["NC总数"] else 0
+    for series, label in zip(line.ser, ("NC总数", "严重"), strict=True):
+        series.val.numRef.numCache = NumData(ptCount=len(summaries), pt=[
+            NumVal(idx=i, v=counts[label]) for i, counts in enumerate(summaries)
+        ])
+        series.cat.numRef = None
+        series.cat.strRef = StrRef(f=f"'{TREND_SHEET}'!$A$4:$A${total-1}",
+            strCache=StrData(ptCount=len(snapshot.phases), pt=[
+                StrVal(idx=i, v=phase.name) for i, phase in enumerate(snapshot.phases)
+            ]))
+    pie.ser[0].val.numRef.numCache = NumData(ptCount=len(_CATEGORIES), pt=[
+        NumVal(idx=i, v=cached[f"S{i+4}"]) for i in range(len(_CATEGORIES))
+    ])
+    pie.ser[0].cat.numRef = None
+    pie.ser[0].cat.strRef = StrRef(f=f"'{TREND_SHEET}'!$Q$4:$Q$13",
+        strCache=StrData(ptCount=len(_CATEGORIES), pt=[
+            StrVal(idx=i, v=value) for i, value in enumerate(_CATEGORIES)
+        ]))
+    book.save(output_path)
+    book.close()
+    write_formula_caches(output_path, {TREND_SHEET: cached})
+    return output_path
 
 def build_complete_export_package(snapshot: ExportSnapshot, output_root: Path, build_phases) -> CompanyTrendArtifacts:
     stamp = datetime.now().strftime("%Y%m%d-%H%M%S")

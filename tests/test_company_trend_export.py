@@ -102,3 +102,69 @@ def test_trend_conclusion_uses_manual_override_and_empty_override_uses_formula(e
         assert workbook[TREND_SHEET].cell(conclusion_row, 1).data_type == "f"
     finally:
         workbook.close()
+
+
+def test_nonzero_snapshot_caches_and_relative_links(export_context, tmp_path):
+    from app.application.export_snapshot_service import ExportIssueSnapshot
+    from app.excel.phase_workbook_builder import CALCULATION_SHEET
+    from zipfile import ZipFile
+    import xml.etree.ElementTree as ET
+    import shutil
+
+    # Two stages and distinct severities catch partial refresh and all-zero fixtures.
+    phases = list(export_context.phases)
+    for index, severity in ((0, "严重"), (1, "一般")):
+        phase = phases[index]
+        audit = next(a for a in phase.audits if a.report_scope == "phase")
+        group = audit.groups[0]
+        item = group.items[0]
+        issue = ExportIssueSnapshot(100 + index, "缓存回归", "缓存回归", severity,
+            None, None, None, None, None, None, None, False)
+        changed_item = replace(item, conclusion="不符合", issues=(issue,))
+        changed_group = replace(group, items=(changed_item, *group.items[1:]))
+        changed_audit = replace(audit, groups=(changed_group, *audit.groups[1:]))
+        phases[index] = replace(phase, audits=tuple(changed_audit if a.id == audit.id else a for a in phase.audits))
+    snapshot = replace(export_context, project_code="QA-02-hyphen", phases=tuple(phases))
+    package = build_complete_export_package(snapshot, tmp_path / "original", build_all_phase_workbooks)
+    moved = tmp_path / "moved"
+    shutil.move(package.output_dir, moved)
+    path = moved / package.trend_workbook.name
+    validate_company_trend_workbooks(None, path)
+    values = load_workbook(path, data_only=True)
+    formulas = load_workbook(path, data_only=False)
+    try:
+        sheet = values[TREND_SHEET]
+        assert [sheet[f"B{r}"].value for r in range(4, 10)] == [1, 1, 0, 0, 0, 0]
+        assert sheet['B10'].value == 2
+        assert sheet['D10'].value == sheet['E10'].value == 1
+        assert sheet['A12'].value == '当前项目共发现2项不符合项，其中严重1项。'
+        assert sum(sheet[f'S{r}'].value for r in range(4, 14)) == 1
+        assert sum(sheet[f'R{r}'].value for r in range(4, 14)) == 2
+        for i, link in enumerate(formulas._external_links):
+            assert link.file_link.Target == package.phase_workbooks[i].name
+            assert (moved / link.file_link.Target).is_file()
+            cached = link.externalBook.sheetDataSet.sheetData[0]
+            assert cached.row[0].cell[0].v == str(1 if i < 2 else 0)
+        assert 'IFERROR' not in formulas[TREND_SHEET]['B4'].value
+        assert '$A:$A' not in formulas[TREND_SHEET]['B4'].value
+        for i, original in enumerate(package.phase_workbooks):
+            book = load_workbook(moved / original.name, data_only=True)
+            try:
+                summary = {r[0].value: r[1].value for r in book[CALCULATION_SHEET] if isinstance(r[0].value, str)}
+                assert summary['NC总数'] == (1 if i < 2 else 0)
+            finally:
+                book.close()
+        with ZipFile(path) as archive:
+            ns = {'c': 'http://schemas.openxmlformats.org/drawingml/2006/chart'}
+            chart = ET.fromstring(archive.read('xl/charts/chart1.xml'))
+            assert [float(v.text) for v in chart.findall('.//c:ser/c:val/c:numRef/c:numCache/c:pt/c:v', ns)] == [1,1,0,0,0,0,1,0,0,0,0,0]
+    finally:
+        values.close()
+        formulas.close()
+
+    # An openpyxl re-save drops caches; the export gate must catch this.
+    uncached = load_workbook(path)
+    uncached.save(path)
+    uncached.close()
+    with pytest.raises(ValueError, match="snapshot values are missing"):
+        validate_company_trend_workbooks(None, path)

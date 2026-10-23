@@ -18,6 +18,7 @@ from app.excel.phase_workbook_builder import (
     PHASE_REPORT_SHEET as COMPLETE_PHASE_REPORT_SHEET,
 )
 from app.excel.company_trend_builder import COMPANY_DIRECTORY_SHEET, TREND_SHEET
+from app.excel.external_links import _validated_relative_target
 
 
 @dataclass(frozen=True, slots=True)
@@ -43,6 +44,25 @@ def validate_company_trend_workbooks(company_path: Path | None, trend_path: Path
             raise ValueError("Trend workbook is missing its sheet or charts")
         if trend.calculation.calcMode != "auto":
             raise ValueError("Trend workbook automatic calculation is disabled")
+        for link in trend._external_links:
+            _validated_relative_target(link.file_link.Target)
+            if link.externalBook.sheetDataSet is None:
+                raise ValueError("Trend external link is missing snapshot values")
+        values = load_workbook(trend_path, data_only=True, keep_links=False)
+        try:
+            sheet = values[TREND_SHEET]
+            total_row = next(row[0].row for row in sheet if row[0].value == "合计")
+            for row in range(4, total_row + 1):
+                counts = [sheet.cell(row, col).value for col in range(2, 16)]
+                if any(not isinstance(value, (int, float)) for value in counts):
+                    raise ValueError(f"Trend snapshot values are missing at row {row}")
+                if counts[0] != sum(counts[1:4]) or counts[0] != sum(counts[4:]):
+                    raise ValueError(f"Trend snapshot totals disagree at row {row}")
+            for col in range(2, 16):
+                if sheet.cell(total_row, col).value != sum(sheet.cell(row, col).value for row in range(4, total_row)):
+                    raise ValueError("Trend snapshot phase totals disagree")
+        finally:
+            values.close()
         for worksheet in trend.worksheets:
             for row in worksheet.iter_rows():
                 for cell in row:

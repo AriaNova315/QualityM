@@ -4,7 +4,7 @@ from pathlib import PurePosixPath
 
 from openpyxl.packaging.relationship import Relationship
 from openpyxl.workbook.external_link.external import (
-    ExternalBook,
+    ExternalBook, ExternalCell, ExternalRow, ExternalSheetData, ExternalSheetDataSet,
     ExternalLink,
     ExternalSheetNames,
 )
@@ -26,6 +26,7 @@ def add_external_workbook_link(
     *,
     target: str,
     sheet_names: tuple[str, ...],
+    cached_cells: dict[str, int] | None = None,
 ) -> int:
     """Register one OOXML external-workbook relationship.
 
@@ -41,6 +42,15 @@ def add_external_workbook_link(
         sheetNames=ExternalSheetNames(sheetName=list(sheet_names)),
         id="rId1",
     )
+    if cached_cells is not None:
+        if len(sheet_names) != 1:
+            raise ValueError("Cached external links require exactly one sheet")
+        external_book.sheetDataSet = ExternalSheetDataSet(sheetData=[
+            ExternalSheetData(sheetId=0, row=[
+                ExternalRow(r=int(address[1:]), cell=[ExternalCell(r=address, t="n", v=str(value))])
+                for address, value in cached_cells.items()
+            ])
+        ])
     link = ExternalLink(externalBook=external_book)
     link.file_link = Relationship(
         Id="rId1",

@@ -285,7 +285,7 @@ window.qualityMApp = () => ({
 });
 
 const alpineScript = document.createElement("script");
-alpineScript.src = "https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js";
+alpineScript.src = "/static/vendor/alpine-3.14.9.min.js";
 alpineScript.defer = true;
-alpineScript.onerror = () => { document.body.innerHTML = '<main class="card"><h1>QualityM 前端资源加载失败</h1><p>请检查网络连接后刷新页面。</p></main>'; };
+alpineScript.onerror = () => { document.body.innerHTML = '<main class="card"><h1>QualityM 前端资源加载失败</h1><p>请检查服务是否运行，以及 app/static/vendor 中的脚本文件是否完整，然后刷新页面。</p></main>'; };
 document.head.appendChild(alpineScript);

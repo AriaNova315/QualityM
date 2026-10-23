@@ -18,6 +18,7 @@ from app.application.export_snapshot_service import (
     ExportPhaseSnapshot,
     ExportSnapshot,
 )
+from app.excel.formula_cache import write_formula_caches
 from app.excel.formulas import Formula, internal_reference, write_formula, write_literal_cell
 from app.excel.sheet_names import safe_filename_component, safe_sheet_name
 from app.excel.templates import (
@@ -785,6 +786,19 @@ def _build_audit_report(
     return tuple(report_issue_rows)
 
 
+def trend_summary(phase: ExportPhaseSnapshot) -> dict[str, int]:
+    counts = dict.fromkeys(("NC总数", "轻微", "一般", "严重", *_TREND_CATEGORIES), 0)
+    for audit in phase.audits:
+        if audit.report_scope != "phase":
+            continue
+        for issue in _all_issues(audit):
+            counts["NC总数"] += 1
+            counts[issue.severity] += 1
+            category = "工作产品" if audit.audit_kind == "product" else (audit.process_code or "过程")
+            counts[category] = counts.get(category, 0) + 1
+    return counts
+
+
 def _build_calculation_sheet(
     worksheet, infos: tuple[_AuditSheetInfo, ...]
 ) -> tuple[int, dict[tuple[int, int], int]]:
@@ -1367,6 +1381,12 @@ def build_phase_workbook(
         )
         _build_directory(workbook, snapshot, phase, infos)
         workbook.save(output_path)
+        counts = trend_summary(phase)
+        summary_start = calculation_last_row + 2
+        write_formula_caches(output_path, {CALCULATION_SHEET: {
+            f"B{summary_start + offset}": counts[label]
+            for offset, label in enumerate(("NC总数", "轻微", "一般", "严重", *_TREND_CATEGORIES))
+        }})
     finally:
         workbook.close()
         product_templates.close()
